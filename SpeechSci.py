@@ -1,7 +1,8 @@
 # - Speech wave & frequency (measured in decibels):
 # source code:
 
-import SciPy
+import scipy
+from scipy import constants
 import sys
 import _SpeechBackAudio
 
@@ -12,15 +13,4 @@ def _TextTransition():
 
 
 def __ini__(self):
-    
-
-
-  
-
-
-
-
-
-
-
 
